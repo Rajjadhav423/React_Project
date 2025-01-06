@@ -1,0 +1,70 @@
+/* Styling for the Pokedex container */
+.poke {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #ffcb05, #3b4cca);
+    border: 2px solid #3b4cca;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 90%;
+    max-width: 500px;
+    margin: 50px auto;
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  
+  /* Title for the Pokedex component */
+  .poke h1 {
+    font-size: 2rem;
+    color: #ffcb05;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Styling for the Search input */
+  .poke input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    border: 2px solid #3b4cca;
+    border-radius: 25px;
+    font-size: 1rem;
+    outline: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Placeholder styling */
+  .poke input[type="text"]::placeholder {
+    color: #aaa;
+    font-style: italic;
+  }
+  
+  /* Input focus effect */
+  .poke input[type="text"]:focus {
+    border-color: #ffcb05;
+    box-shadow: 0 4px 8px rgba(255, 203, 5, 0.5);
+  }
+  
+  /* Button styling (if needed later) */
+  .poke button {
+    background-color: #3b4cca;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .poke button:hover {
+    background-color: #ffcb05;
+    color: #3b4cca;
+  } 
+  
